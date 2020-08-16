@@ -15,6 +15,8 @@
 		1D2BB5CE24E8C47400D7021F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D2BB5CC24E8C47400D7021F /* LaunchScreen.storyboard */; };
 		1D2BB5D924E8C47400D7021F /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB5D824E8C47400D7021F /* LandmarksTests.swift */; };
 		1D2BB5E424E8C47400D7021F /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB5E324E8C47400D7021F /* LandmarksUITests.swift */; };
+		1D2BB5F224E8C9C000D7021F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB5F124E8C9C000D7021F /* CircleImage.swift */; };
+		1D2BB5F424E8CB1700D7021F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB5F324E8CB1700D7021F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1D2BB5DF24E8C47400D7021F /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2BB5E324E8C47400D7021F /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		1D2BB5E524E8C47400D7021F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D2BB5F124E8C9C000D7021F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1D2BB5F324E8CB1700D7021F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				1D2BB5C124E8C47200D7021F /* AppDelegate.swift */,
 				1D2BB5C324E8C47200D7021F /* SceneDelegate.swift */,
 				1D2BB5C524E8C47200D7021F /* ContentView.swift */,
+				1D2BB5F124E8C9C000D7021F /* CircleImage.swift */,
+				1D2BB5F324E8CB1700D7021F /* MapView.swift */,
 				1D2BB5C724E8C47400D7021F /* Assets.xcassets */,
 				1D2BB5CC24E8C47400D7021F /* LaunchScreen.storyboard */,
 				1D2BB5CF24E8C47400D7021F /* Info.plist */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D2BB5C224E8C47200D7021F /* AppDelegate.swift in Sources */,
+				1D2BB5F224E8C9C000D7021F /* CircleImage.swift in Sources */,
+				1D2BB5F424E8CB1700D7021F /* MapView.swift in Sources */,
 				1D2BB5C424E8C47200D7021F /* SceneDelegate.swift in Sources */,
 				1D2BB5C624E8C47200D7021F /* ContentView.swift in Sources */,
 			);
@@ -434,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = LJN6263MJP;
@@ -445,6 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = brianisbrilliant.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = LJN6263MJP;
@@ -465,6 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = brianisbrilliant.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
